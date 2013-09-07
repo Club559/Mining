@@ -1,0 +1,32 @@
+﻿<Objects>
+  <Object type="0x031d" id="Miner">
+    <Class>Player</Class>
+    <Description>A simple miner.</Description>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <HitSound>player/warrior_hit</HitSound>
+    <DeathSound>player/warrior_death</DeathSound>
+    <Player/>
+    <BloodProb>1.0</BloodProb>
+    <SlotTypes>1, 16, 7, 9, 0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+    <Equipment>0xa00, 0x0a66, 0xa7b, 0xa24, -1, -1, -1, -1, -1, -1, -1, -1</Equipment>
+    <MaxHitPoints max="770">770</MaxHitPoints>
+    <MaxMagicPoints max="252">252</MaxMagicPoints>
+    <Attack max="75">75</Attack>
+    <Defense max="25">25</Defense>
+    <Speed max="20">20</Speed>
+    <Dexterity max="20">20</Dexterity>
+    <HpRegen max="75">75</HpRegen>
+    <MpRegen max="50">50</MpRegen>
+    <LevelIncrease min="20" max="30">MaxHitPoints</LevelIncrease>
+    <LevelIncrease min="2" max="8">MaxMagicPoints</LevelIncrease>
+    <LevelIncrease min="1" max="2">Attack</LevelIncrease>
+    <LevelIncrease min="0" max="0">Defense</LevelIncrease>
+    <LevelIncrease min="0" max="2">Speed</LevelIncrease>
+    <LevelIncrease min="0" max="2">Dexterity</LevelIncrease>
+    <LevelIncrease min="1" max="2">HpRegen</LevelIncrease>
+    <LevelIncrease min="0" max="2">MpRegen</LevelIncrease>
+  </Object>
+</Objects>
